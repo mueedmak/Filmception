@@ -1,0 +1,25 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environments
+.env
+.venv
+
+# VS Code
+.vscode/
+
+# Ignore large data files and models if not needed (uncomment if you want to ignore them)
+# cleaned_movie_data.csv
+# tfidf_vectorizer.pkl
