@@ -75,8 +75,9 @@ Translate movie summaries into:
 ├── Data_pre_proc.ipynb
 ├── genre.ipynb
 ├── cleaned_movie_data.csv
+├── requirements.txt
 ├── README.md
-└── images/
+└── .gitignore
 ```
 
 ---
@@ -139,6 +140,7 @@ Developed for the **Artificial Intelligence** course at **FAST – National Univ
 
 - Abdul Mueed Malik
 - Fahad Raza
+
 ---
 
 ## 🚀 How to Run
@@ -167,12 +169,6 @@ source venv/bin/activate
 ```
 
 ### 3. Install the required packages
-
-```bash
-pip install pandas numpy scikit-learn nltk gtts googletrans==4.0.0-rc1 matplotlib jupyter
-```
-
-If a `requirements.txt` file is available:
 
 ```bash
 pip install -r requirements.txt
